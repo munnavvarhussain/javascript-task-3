@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  select, input {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  #modal {
+    width: 80%;
+  }
+}

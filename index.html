@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Interaction</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<body>
+<label class="dark-toggle">
+  <input type="checkbox" id="darkModeToggle">
+  <span>Dark Mode</span>
+</label>
+
+
+<h1>welcome to javascript basics</h1>
+<section id="javascript-demo" class="animated-section">
+  <div class="section-header">
+    <i class="fas fa-code"></i>
+    <h2>JavaScript Interactivity Demo</h2>
+  </div>
+  <p>This section demonstrates essential JavaScript features including:</p>
+  <ul>
+    <li>✅ Interactive elements like <strong>dropdowns</strong>, <strong>modals</strong>, and <strong>forms</strong></li>
+    <li>✅ Use of <strong>functions</strong> and <strong>event listeners</strong> for interactivity</li>
+    <li>✅ <strong>Form validation</strong> and data handling with localStorage</li>
+    <li>✅ Smooth <strong>animations</strong> and <strong>dark mode</strong> support</li>
+  </ul>
+</section>
+
+
+  <!-- Dropdown -->
+  <label for="dropdown">Choose an option:</label>
+  <select id="dropdown">
+    <option value="Option 1">Option 1</option>
+    <option value="Option 2">Option 2</option>
+  </select>
+
+  <!-- Modal Trigger -->
+  <button id="openModal"><i class="fas fa-eye"></i> Open Modal</button>
+
+  <!-- Modal -->
+  <div id="modal" style="display:none; position:fixed; top:20%; left:40%; background:#ccc; padding:20px;">
+    <p>This is a modal!</p>
+    <button id="closeModal"><i class="fas fa-times-circle"></i> Close</button>
+
+  </div>
+
+  <!-- Form -->
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Enter your name" required />
+    <button type="submit"><i class="fas fa-paper-plane"></i> Submit</button>
+  </form>
+
+<section id="javascript-task">
+  <h1>JavaScript Task Demo</h1>
+  <!-- dropdown, modal, form code here -->
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
